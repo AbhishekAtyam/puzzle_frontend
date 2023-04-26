@@ -10,7 +10,7 @@ function Login() {
     event.preventDefault();
 
     try {
-      const response = await fetch('https://mystery-minds-backend.onrender.com/api/login', {
+      const response = await fetch('/api/login', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
