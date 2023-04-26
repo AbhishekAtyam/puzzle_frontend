@@ -22,7 +22,7 @@ function Register() {
 
     try {
       // Send a POST request to the backend server with the registration data
-      const response = await fetch('/api/register', {
+      const response = await fetch('https://mystery-minds-backend.onrender.com/api/register', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
